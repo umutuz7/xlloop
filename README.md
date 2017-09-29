@@ -32,3 +32,9 @@ You need the following two libraries compiled for x64:
   2. Add the yajl_x64.lib (step 2.1) and the xlcall32.lib (excel sdk) into this directory
 4. Build the project
 5. Load the generated xlloop.xll into you 64bit excel
+
+## Logging
+
+Java plugin logging can be enabled by the following JVM parameter;
+
+-Dxlloop.log.configuration=true

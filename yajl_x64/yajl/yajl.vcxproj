@@ -70,10 +70,10 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\kay\Documents\Visual Studio 2012\Projects\yajl\yajl\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)yajl\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>Z:\Heri\xlloop\yajl_x64\yajl\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)yajl\include;$(IncludePath)</IncludePath>
     <TargetName>yajl_x64</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
